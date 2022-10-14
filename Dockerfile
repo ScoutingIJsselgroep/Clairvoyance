@@ -1,5 +1,7 @@
 FROM python:2.7
 
+ENV KML_FILENAME 2022.kml
+
 WORKDIR /pythonapp
 
 ADD clairvoyance.py /
